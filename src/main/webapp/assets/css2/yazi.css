@@ -1,0 +1,346 @@
+body {
+	line-height:18pt;
+	font-size: 14px;
+	color:#333333;
+	padding: 0;
+    margin: 0;
+	height: 100%;
+	margin:0px auto; background-position: center top;
+	font-family: "PT Sans Narrow", "Lucida Grande", sans-serif }
+
+
+@font-face {
+    font-family: "PT Sans Narrow";
+    src: url('../Font/PT_Sans-Narrow-Web-Regular.eot'); 
+    src: url('../Font/PT_Sans-Narrow-Web-Regular.eot') format('embedded-opentype'), 
+         url( '../Font/PT_Sans-Narrow-Web-Regular.ttf' ) format("truetype");
+} 
+
+select {font-size:13px; color: #333333;}
+textarea {font-size:13px; color: #333333;}
+
+td {font-size: 14px; line-height:18pt; color: #333333;}
+td a:link {font-size: 14px; line-height:18pt; color: #333333; text-decoration:none;}
+td a:visited {font-size: 14px; line-height:18pt; color: #333333; text-decoration:none;}
+td a:active {font-size: 14px; line-height:18pt; color: #333333; text-decoration:none;}
+td a:hover {font-size: 14px; line-height:18pt; color: #ec7000; text-decoration:none;}
+
+a:link {color:#333333; text-decoration:none;}
+a:visited {color:#333333; text-decoration:none;}
+a:active {color:#ec7000; text-decoration:underline;}
+a:hover {color:#ec7000; text-decoration:underline;}
+
+.Ortala{margin: 0 auto; width:980px}
+.IcUst{
+	width:980px;
+	height:27px;
+	background-image:url(../Resim/OrtaUstBg.png);
+	background-repeat:no-repeat;
+	}	
+.Orta{
+	width:960px;
+	background-image: url(../Resim/OrtaUstBg.png); 
+	background-repeat: no-repeat;
+	padding:10px;
+	padding-top:30px;
+	min-height: 500px;
+	margin:0px auto;
+ background-color:#f0f0f0; 
+	}	
+
+.SayfaMenu{
+	float:left;
+	width:245px;
+	padding-top:20px;
+	padding-top:40px	
+	}
+	
+	.MenuDikAra{
+	float:left;
+	width:1px;
+	min-height:500px;
+	height:100%;
+	background-image:url(../Resim/Gri.gif);
+	margin:45px 25px 25px 25px;		
+	}
+
+.SayfaOrta{
+	float:left;
+	width:664px;
+	text-align:justify;	
+	}	
+	
+.SayfaUst{
+	height:182px
+	}	
+
+.SayfaAlt{
+	padding-top:30px
+	}			
+
+.GundemEkrani{
+	background-image:url(http://www.afad.gov.tr/Resim/GundemEkraniBg.png);
+	width:960px;
+	height:290px;
+	padding:10px;
+	padding-top:30px;	
+	}
+	
+	.YatayAra{	
+	background-image:url(../Resim/YatayAra.png);
+	width:980px;
+	height:35px;
+	text-align:center;
+	clear:both;
+
+	}
+	
+	.Sol{
+		float:left;
+		width:305px;
+		padding-top:15px;
+	}			
+
+.Sag{
+		float:right;
+		width:650px;
+		padding-top:15px;
+	}			
+
+	
+.Slogan {
+font-family:Georgia,'Times New Roman',Times,serif;
+font-size:19px;
+letter-spacing:-1px;
+line-height:30px;
+color:#999
+}
+
+	.YatayCizgi{	
+	background-image:url(../Resim/Gri.gif);
+	width:100%;
+	height:1px;
+	margin:5px 0 5px 0;
+	text-align:center;
+	clear:both;
+
+	}
+
+.Navigasyon {color:#999; padding:5px 0 0 0; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: none}
+a.Navigasyon:link {color:#999; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-decoration:none;}
+a.Navigasyon:visited {color:#999; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-decoration:none;}
+a.Navigasyon:active {color:#999; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-decoration:none;}
+a.Navigasyon:hover {color:#ec7000; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-decoration:none;}
+
+
+.Anasayfa {color:#333333; font-size: 13px; text-decoration: none}
+a.Anasayfa:link {color:#333333; font-size: 13px; text-decoration:none;}
+a.Anasayfa:visited {color:#333333; font-size: 13px; text-decoration:none;}
+a.Anasayfa:active {color:#333333; font-size: 13px; text-decoration:none;}
+a.Anasayfa:hover {color:#ec7000; font-size: 13px; text-decoration:none; }
+
+.HaberAnasayfa {color:#003875; font-size: 13px; text-decoration: none}
+a.HaberAnasayfa:link {color:#003875; font-size: 13px; text-decoration:none;}
+a.HaberAnasayfa:visited {color:#003875; font-size: 13px; text-decoration:none;}
+a.HaberAnasayfa:active {color:#003875; font-size: 13px; text-decoration:none;}
+a.HaberAnasayfa:hover {color:#ec7000; font-size: 13px; text-decoration:none;}
+
+
+.Alt {color:#013c7a; font-size: 14px; font:Tahoma, Geneva, sans-serif; line-height:15pt; text-decoration: none}
+a.Alt:link {color:#013c7a; font-size: 14px; font:Tahoma, Geneva, sans-serif; line-height:15pt; text-decoration: none}
+a.Alt:visited {color:#013c7a; font-size: 14px; font:Tahoma, Geneva, sans-serif; line-height:15pt; text-decoration: none}
+a.Alt:active {color:#013c7a; font-size: 14px; font:Tahoma, Geneva, sans-serif; line-height:15pt; text-decoration: none}
+a.Alt:hover {color:#ec7000; font-size: 14px; font:Tahoma, Geneva, sans-serif; line-height:15pt; text-decoration: none}
+
+
+.Tarih {color:#817866; font-size:11px; font-family:Georgia, "Times New Roman", Times, serif; text-indent:inherit; text-decoration: none}
+a.Tarih:link {color:#817866; font-size: 12px;font-family:Georgia, "Times New Roman", Times, serif; text-decoration:none;}
+a.Tarih:visited {color:#817866; font-size: 12px; font-family:Georgia, "Times New Roman", Times, serif;text-decoration:none;}
+a.Tarih:active {color:#817866; font-size: 12px;font-family:Georgia, "Times New Roman", Times, serif; text-decoration:none;}
+a.Tarih:hover {color:#ec7000; font-size: 12px;font-family:Georgia, "Times New Roman", Times, serif; text-decoration:none;}
+
+.SonDepremTarih {color:#b3c3d5; font-size:23px; letter-spacing:-2px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: none}
+a.SonDepremTarih:link {color:#b3c3d5; font-size: 23px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDepremTarih:visited {color:#b3c3d5; font-size: 23px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDepremTarih:active {color:#b3c3d5; font-size: 23px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDepremTarih:hover {color:#b3c3d5; font-size: 23px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+
+.SonDeprem {color:#000; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: none}
+a.SonDeprem:link {color:#000; font-size: 13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDeprem:visited {color:#000; font-size: 13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDeprem:active {color:#006699; font-size: 13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+a.SonDeprem:hover {color:#006699; font-size: 13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-serif text-decoration:none;}
+
+.Deprem {color:#006699; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: underline}
+a.Deprem:link {color:#006699; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: underline}
+a.Deprem:visited {color:#006699; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: underline}
+a.Deprem:active  {color:#006699; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: underline}
+a.Deprem:hover{color:#006699; font-size:13px; font-family: "PT Sans Narrow", "Lucida Grande", sans-seriftext-indent:inherit; text-decoration: underline}
+
+.AramaTextBox {color:#666666; border:0px; font-size:11px; background-image:url(../Resim/AraBg.gif); background-repeat:no-repeat; width:254px; height:24px; text-decoration: none}
+
+.Devam {color:#013c7a; font-size:13px; text-indent:inherit; text-decoration: none}
+a.Devam:link {color:#013c7a; font-size: 13px; text-decoration:none;}
+a.Devam:visited {color:#013c7a; font-size: 13px; text-decoration:none;}
+a.Devam:active {color:#013c7a; font-size: 13px; text-decoration:none;}
+a.Devam:hover {color:#ec7000; font-size: 13px; text-decoration: underline;}
+
+.TuruncuB {color:#ec7000; font-size:15px; text-indent:inherit; text-decoration: none}
+a.TuruncuB:link {color:#ec7000; font-size: 15px; text-decoration:none;}
+a.TuruncuB:visited {color:#ec7000; font-size: 15px; text-decoration:none;}
+a.TuruncuB:active {color:#ec7000; font-size: 15px; text-decoration:none;}
+a.TuruncuB:hover {color:#013c7a; font-size: 15px; text-decoration: underline;}
+
+.KMavi {color:#ec7000; font-size: 13px; text-decoration: none}
+a.KMavi:link {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.KMavi:visited {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.KMavi:active {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.KMavi:hover {color:#ec7000;  font-size: 13px; text-decoration:none;}
+
+
+.DigerHaber {color:#ec7000; font-size: 13px; text-decoration: none}
+a.DigerHaber:link {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.DigerHaber:visited {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.DigerHaber:active {color:#536a94;  font-size: 13px; text-decoration:none;}
+a.DigerHaber:hover {color:#ec7000;  font-size: 13px; text-decoration:none;}
+
+.IcerikMavi {color:#4871b7; font-size: 22px; text-decoration: none}
+a.IcerikMavi:link {color:#4871b7;  font-size: 13px; text-decoration:none;}
+a.IcerikMavi:visited {color:#4871b7;  font-size: 13px; text-decoration:none;}
+a.IcerikMavi:active {color:#4871b7;  font-size: 13px; text-decoration:none;}
+a.IcerikMavi:hover {color:#ec7000;  font-size: 13px; text-decoration:none;}
+
+
+.Etiket {color:#666666; font-size: 11px; text-decoration: none}
+a.Etiket:link {color:#666666; font-size: 11px; text-decoration:none;}
+a.Etiket:visited {color:#666666; font-size: 11px; text-decoration:none;}
+a.Etiket:active {color:#666666; font-size: 11px; text-decoration:none;}
+a.Etiket:hover {color:#ec7000; font-size: 11px; text-decoration:none;}
+
+
+.Firma {color:#ec7000; font-size: 13px; text-decoration:none;}
+a.Firma:link {color:#ec7000;  font-size: 13px; text-decoration:none;}
+a.Firma:visited {color:#ec7000; font-size: 13px; text-decoration:none;}
+a.Firma:active {color:#ec7000; font-size: 13px; text-decoration:none;}
+a.Firma:hover {color:#333333; font-size: 13px; text-decoration:none;}
+
+
+.Yazdir {color:#666666; font-size: 11px; text-decoration:none;}
+a.Yazdir:link {color:#666666;  font-size: 11px; text-decoration:none;}
+a.Yazdir:visited {color:#666666; font-size: 11px; text-decoration:none;}
+a.Yazdir:active {color:#666666; font-size: 11px; text-decoration:none;}
+a.Yazdir:hover {color:#ec7000; font-size: 11px; text-decoration:none;}
+
+.menu {color:#003366; font-size: 14px; line-height:15px; text-decoration: none}
+a.menu:link {color:#003366; font-size: 14px; line-height:15px; text-decoration:none;}
+a.menu:visited {color:#003366; font-size: 14px; line-height:15px; text-decoration:none;}
+a.menu:active {color:#003366; font-size: 14px; line-height:15px; text-decoration:none;}
+a.menu:hover {color:#ec7000; font-size: 14px; line-height:15px; text-decoration:none;}
+
+.secili {color:#ec7000; font-size: 14px; line-height:12px; text-decoration: none}
+a.secili:link {color:#ec7000; font-size: 14px; line-height:12px; text-decoration:none;}
+a.secili:visited {color:#ec7000; font-size: 14px; line-height:12px; text-decoration:none;}
+a.secili:active {color:#ec7000; font-size: 14px; line-height:12px; text-decoration:none;}
+a.secili:hover {color:#003366; font-size: 14px; line-height:12px; text-decoration:none;}
+
+
+.Sayfalama {color:#666666; font-size: 11px; text-decoration: none}
+a.Sayfalama:link {color:#666666; font-size: 11px; text-decoration:none;}
+a.Sayfalama:visited {color:#666666; font-size: 11px; text-decoration:none;}
+a.Sayfalama:active {color:#666666; font-size: 11px; text-decoration:none;}
+a.Sayfalama:hover {color:#ec7000; font-size: 11px; text-decoration:none;}
+
+
+.SayfalamaSayi {color:#666666; font-size: 11px; text-decoration: none}
+
+.MenuBaslik {color:#003366; font-size:24px; line-height:13pt; text-decoration: none}
+a.MenuBaslik:link {color:#003366; font-size:24px; line-height:13pt; text-decoration: none}
+a.MenuBaslik:visited {color:#003366; font-size:24px; line-height:13pt; text-decoration: none}
+a.MenuBaslik:active {color:#003366; font-size:24px; line-height:13pt; text-decoration: none}
+a.MenuBaslik:hover {color:#ec7000; font-size:24px; line-height:13pt; text-decoration: none}
+
+.Baslik {color:#9c9588; font-size:17px; line-height:13pt; text-decoration: none}
+a.Baslik:link {color:#9c9588; font-size:17px; line-height:13pt; text-decoration: none}
+a.Baslik:visited {color:#9c9588; font-size:17px; line-height:13pt; text-decoration: none}
+a.Baslik:active {color:#9c9588; font-size:17px; line-height:13pt; text-decoration: none}
+a.Baslik:hover {color:#ec7000; font-size:17px; line-height:13pt; text-decoration: none}
+
+.BaslikK {color:#003773; font-size:13px; line-height:13pt; text-decoration: none}
+a.BaslikK:link {color:#003773; font-size:13px; line-height:13pt; text-decoration: none}
+a.BaslikK:visited {color:#003773; font-size:13px; line-height:13pt; text-decoration: none}
+a.BaslikK:active {color:#003773; font-size:13px; line-height:13pt; text-decoration: none}
+a.BaslikK:hover {color:#ec7000; font-size:13px; line-height:13pt; text-decoration: none}
+
+.TextBox { background-image:url(../Resim/AraBg.png); width:170px; padding-left:18px; font-size: 11px; font-style:normal;height:21px; border:0px; color:#999999;}
+
+.ResimCerceve {   border: 1px solid #c4c4c4;   outline: 1px solid #cccccc;}
+
+.Cerceve {border: 1px solid #c4c4c4; padding:5px; background:#dedede}
+
+h1 {
+	color: #003366;
+   	font-size:25px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-family:Arial Narrow, Helvetica, sans-serif;
+	}
+	
+
+h2 {
+	color: #003366;
+   	font-size:120%;
+	font-weight: normal;
+	
+}
+h2 a, h2 a:visited, h2 a:link{
+	color: #003366;
+   	font-size:140%;
+	letter-spacing: -1px;
+	font-weight: normal;
+	
+}
+h2 a:hover {
+	color: #003366;
+   	font-size:140%;
+	letter-spacing: -1px;
+	font-weight: normal;
+	
+}
+
+
+h3 {
+	color: #ec7000;
+	font-size:25px;
+	letter-spacing: -1px;
+	padding:20px 0 0 0;
+	font-weight: normal;
+	font-family:Arial Narrow, Helvetica, sans-serif;
+	}
+
+a.English { display: block; width: 60px; height:30px; background: url(../Resim/TR/English.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.English { background: url(../Resim/TR/English1.png) 0 0 no-repeat; }
+
+a.Bilgi { display: block; width: 82px; height:30px; background: url(../Resim/TR/Bilgi.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.Bilgi { background: url(../Resim/TR/Bilgi1.png) 0 0 no-repeat; }
+
+a.Iletisim { display: block; width: 55px; height:30px; background: url(../Resim/TR/Iletisim.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.Iletisim { background: url(../Resim/TR/Iletisim1.png) 0 0 no-repeat; }
+
+a.AnasayfaUst { display: block; width: 50px; height:30px; background: url(../Resim/TR/AnasayfaUst.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.AnasayfaUst { background: url(../Resim/TR/AnasayfaUst1.png) 0 0 no-repeat; }
+
+a.HomepageUst { display: block; width: 50px; height:30px; padding-left:10px; background: url(../Resim/EN/HomepageUst.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.HomepageUst { background: url(../Resim/EN/HomepageUst1.png) 0 0 no-repeat; }
+
+a.Turkce { display: block; width: 60px; height:30px; background: url(../Resim/EN/Turkce.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.Turkce { background: url(../Resim/EN/Turkce1.png) 0 0 no-repeat; }
+
+a.Contact { display: block; width: 55px; height:30px; background: url(../Resim/EN/Contact.png) 0 0 no-repeat;
+ text-decoration: none; text-indent:-999px; }
+a:hover.Contact { background: url(../Resim/EN/Contact1.png) 0 0 no-repeat; }

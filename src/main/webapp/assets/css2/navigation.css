@@ -1,0 +1,197 @@
+body, form, h1, h2, h3, h4, h5, h6, p, ul, ol, dd, fieldset {
+	margin: 0px;
+	position
+}
+.access {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+}
+ul, ol, dd {
+	padding: 0px;
+	list-style-type: none;
+}
+li {
+	display: inline;
+}
+ul.disc{
+	list-style-image: none;
+	list-style-type: disc;
+	margin-left: 8px;
+	padding-left: 8px;
+}
+ul.disc li{
+	display: list-item;
+	margin-top: 8px;
+}
+ul.gift{
+	list-style-image: none;
+	list-style-type: disc;
+	margin-left: 15px;
+	padding-left: 8px;
+}
+ul.gift li{
+	display: list-item;
+	margin-top: 8px;
+}
+ol.help{
+	list-style-image: none;
+	list-style-type: decimal;
+	margin-left: 8px;
+	padding-left: 8px;
+}
+ol.help li{
+	display: list-item;
+	margin-top: 8px;
+}
+.orderedlist {
+	list-style-type:decimal;
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.listitem {
+	display:list-item;
+	padding:2px 0 2px 0;
+}
+h1 {
+	margin-bottom: 10px;
+	line-height:normal
+}
+body#popup h1 {
+	margin-top: 10px;
+	line-height: 1.1em;
+}
+
+#bcrumbWrapper, #content { clear: both; }
+/** float clearing fox for firefox */
+#pageWrapper:after,
+#pageWrapper #header:after,
+#topNav ul#mainNav li .subnav ul.subnavContent:after,
+#basket .accountBox:after,
+.breadcrumb:after,
+.productImages .productHero #productImageTabBlock:after,
+#footer:after,
+.listerOverlayContent:after,
+.addToCartMsg:after,
+#qfinder ul:after,
+#catMifWrapper:after,
+div#mifHeroPanelContent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#topNav ul { width: 100%;}
+#topNav ul#mainNav {
+	clear: both;
+	width: 980px;
+	height: 64px;
+}
+#topNav ul li {
+	float: left;
+	padding: 12px 27px 16px 0;
+
+}
+#topNav ul li a {
+	display: block;
+	height:40px;
+	
+}
+#topNav ul li.storeLocator { padding-right: 0; }
+#topNav ul#mainNav li {
+	position: relative;
+	margin:0px 0 10px 0;
+	padding: 0 0 0 0;
+	height: 40px;
+}
+li.Logo { width:164px; height:150px; padding:0 0 100px 0;}
+#topNav ul#mainNav li.Baslik1 { width:66px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik1.png) top left no-repeat}
+#topNav ul#mainNav li.Baslik2 { width:89px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik2.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik3 { width:99px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik3.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik4 { width:89px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik4.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik5 { width:99px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik5.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik6 { width:109px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik6.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik7 { width:99px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik7.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik8 { width:90px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik8.png) top left no-repeat; }
+#topNav ul#mainNav li.Baslik9 { width:61px; margin:93px 0 0 0; background: url(http://www.afad.gov.tr/Resim/TR/Baslik9.png) top left no-repeat; }
+
+#topNav ul#mainNav li:hover, #topNav ul#mainNav li.over { background-position: bottom left; }
+#topNav ul#mainNav li a {
+	display: block;
+	height: 29px;
+	cursor:pointer;
+}
+#topNav ul#mainNav li.hit {
+	background-position: bottom left;
+	padding-bottom: 0;
+}
+#topNav ul#mainNav li:hover div.subnav, #topNav ul#mainNav li.over div.subnav { display: block; }
+#topNav ul#mainNav li div.subnav {
+	display: none;
+	position: absolute;
+	top:40px; /** Set 1px less than menu height */
+	left: 0px;
+	padding: 0 0 10px 0;
+	width: 980px;
+	background: url(../Resim/MenuAlt.gif) bottom left no-repeat;
+}
+#topNav ul#mainNav li.Logo div.subnav { left: 0px; }
+#topNav ul#mainNav li.Baslik1 div.subnav { left: -169px; }
+#topNav ul#mainNav li.Baslik2 div.subnav { left: -235px; }
+#topNav ul#mainNav li.Baslik3 div.subnav { left: -324px; }
+#topNav ul#mainNav li.Baslik4 div.subnav { left: -423px; }
+#topNav ul#mainNav li.Baslik5 div.subnav { left: -512px; }
+#topNav ul#mainNav li.Baslik6 div.subnav { left: -611px; }
+#topNav ul#mainNav li.Baslik7 div.subnav { left: -720px; }
+#topNav ul#mainNav li.Baslik8 div.subnav { left: -819px; }
+#topNav ul#mainNav li.Baslik9 div.subnav { left: -909px; }
+
+#topNav ul#mainNav li div .subnavTop {
+	padding-top: 0px;
+	width: 980px;
+	
+}
+#topNav ul#mainNav li.Baslik1 .subnav .subnavTop { background-color:#FFF}
+#topNav ul#mainNav li.Baslik2 .subnav .subnavTop { background-color:#FFF }
+#topNav ul#mainNav li.Baslik3 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik4 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik5 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik6 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik7 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik8 .subnav .subnavTop {  background-color:#FFF }
+#topNav ul#mainNav li.Baslik9 .subnav .subnavTop {  background-color:#FFF }
+
+
+#topNav ul#mainNav li .subnav ul.subnavContent {
+	padding: 0;
+	width: 980px;
+	background: #fff;
+	list-style: none;
+
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 980px;
+	height: 340px;
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li a:hover { text-decoration: underline; }
+#topNav ul#mainNav li .subnav dl {
+	float: left;
+	margin: 0 0 0 3px !important;
+	padding: 20px 0 6px 9px;
+	width: 300px;
+	background: #fff url() 0 1px no-repeat;
+}
+#topNav ul#mainNav li .subnav dl dt { padding: 4px 0 12px 6px; }
+#topNav ul#mainNav li .subnav dl dt a { height: 1em; }
+#topNav ul#mainNav li .subnav dl dd { padding: 0 0 6px 6px; }
+#topNav ul#mainNav li .subnav dl dd a { height: 1%; }
+
+p.loginLine {
+	padding: 10px 15px 12px 0;
+	z-index: 10;
+}

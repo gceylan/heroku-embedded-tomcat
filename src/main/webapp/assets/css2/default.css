@@ -1,0 +1,37 @@
+
+/* CAROUSELS */
+.module.st-carousel { }
+.module.st-carousel .body {  }
+#gridBN .module.st-carousel .header .see-all { float: none; text-decoration: none; font-size: 12px; margin: 8px 0 0 0; padding: 0; color: #3169a8; }
+#gridBN .module.st-carousel .header .see-all a { }
+#gridBN .module.st-carousel .header .see-all a:hover { text-decoration: underline; }
+.module.st-carousel .stars { margin: 3px 0 0 0; }
+.module.st-carousel .product-title, .module.st-carousel .contributers-line { }
+.module.st-carousel .product-title a, .module.st-carousel .contributers-line a { }
+.V2 .wgt-bn-product-set-basic-container .basic-product-set-item span.generic-header{font: normal 14px/15px MiloSerifOffcMedium, serif; color:#000; text-align:center; margin-top:0px; display:block;}
+.V2 .wgt-bn-product-set-basic-container .basic-product-set-item span.generic-header a {color:#000; font: normal 14px/15px MiloSerifOffcMedium, serif;}
+.V2 .wgt-bn-product-set-basic-container .basic-product-set-item span.generic-header a:hover { }
+.module.st-carousel .product-title a:hover, .module.st-carousel .product-title a:hover span { }
+.module.st-carousel .contributers-line a:hover, .module.st-carousel .contributers-line a:hover span { }
+.module.st-carousel .linked-image { height: 236px; padding-top: 10px; width:106px }
+.module.st-carousel .linked-image.book img, .generic .linked-image img { } 
+.module.st-carousel a:hover.linked-image img {  }
+.module.st-carousel .noframe a:hover.linked-image img{-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+.module.st-carousel .V2 .basic-product-set-item:hover { background: none; border-color: white; box-shadow: none; }
+.V2 .basic-product-set-item { border: 0px solid transparent; line-height: 15px; }
+
+/*Carousel button positioning and background override*/
+.full1.carousel-applier .prev{top:115px; left:120px;}
+.full1.carousel-applier .next {top:115px; right:143px;}
+.full1.carousel-applier .prev {background-position: -2px 0;}
+.full1.carousel-applier .prev:active {background-position: -2px -112px;}
+.full1.carousel-applier .prev.disabled {background-position: -2px -165px;}
+.full1.carousel-applier .prev:hover {background-position: -2px -55px;}
+.full1.carousel-applier .next:hover {background-position: -51px -55px;}
+.full1.carousel-applier .prev:active {background-position: -2px -108px;}
+.full1.carousel-applier .next:active {background-position: -51px -108px;}
+.set-wrapper.full1.V2.carousel-applier .set-control.disappeared {visibility:hidden;}
+/*Carousel height/width scaling */
+.V2 a.linked-image img { max-width:100%; max-height:100%; }
+.V2 .generic a.linked-image {height:135px;}
+.V2 .noframe a.linked-image {height:114px;}
